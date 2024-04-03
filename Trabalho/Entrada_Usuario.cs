@@ -10,7 +10,7 @@ do
         Console.WriteLine("0 - Sair");
         Console.WriteLine("1 - Soma de Números");
         Console.WriteLine("2 - Conversão de metros para milimetros");
-        Console.WriteLine("3 - Verificação do Triângulo");
+        Console.WriteLine("3 - Verificação do Triângulo \n");
         int indice = int.Parse(Console.ReadLine());
         if (indice == 0)
         {
