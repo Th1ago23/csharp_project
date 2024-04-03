@@ -11,8 +11,9 @@ namespace Classes
     {
         public string Verifica_triangulo(float a, float b, float c)
         {
+            //||
             string confirma = string.Empty;
-            if (a == b && a == c)
+            if (a == b && a == c && b == c)
             {
                 confirma = "Esse triângulo é equilátero";
             }

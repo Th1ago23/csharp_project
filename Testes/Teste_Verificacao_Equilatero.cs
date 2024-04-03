@@ -2,7 +2,7 @@ using Classes;
 namespace Testes
 {
     [TestClass]
-    public class Teste_Verificacao
+    public class Teste_Verificacao_Equilatero
     {
         [TestMethod]
         public void TesteVerificacao()
@@ -12,7 +12,7 @@ namespace Testes
             float b = 2;
             float c = 2;
 
-            Verificacao verificacao= new Verificacao();
+            Verificacao verificacao = new Verificacao();
             //Ação
             string resultado = verificacao.Verifica_triangulo(a, b, c);
             //Verificação
