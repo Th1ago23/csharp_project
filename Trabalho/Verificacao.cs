@@ -13,7 +13,7 @@ namespace Classes
         {
             //||
             string confirma = string.Empty;
-            if (a == b && a == c && b == c)
+            if (a == b && a == c)
             {
                 confirma = "Esse triângulo é equilátero";
             }
